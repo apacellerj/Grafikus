@@ -25,9 +25,10 @@ namespace Grafikus
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            
-            button1.Text = counter.ToString();
-            
+            if (textBox1.Text.Lenght < textBox1.Text.Lenght > 4)
+            MessageBox.Show("Legalább négy karakter beütésével működik!"){
+            }
+            int birhtyear = 0;
         }
     }
 }
